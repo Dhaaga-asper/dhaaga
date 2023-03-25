@@ -14,11 +14,13 @@ html, body{
   background: linear-gradient(to right, #e7a866 0%, #e0a76b 100%);
 }
 ::selection{
-  background: #ff80bf;
+  background : #ff80bf; 
+  
 
 }
 .container{
-  background: #e7ceb4;
+  /* background: #e7ceb4; */
+  background-image : url("img/accessories-collection.png");
   max-width: 350px;
   width: 100%;
   padding: 25px 30px;

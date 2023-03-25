@@ -814,6 +814,21 @@ footer .bottom-details .bottom_text{
 
 /* Contact Page */
 
+.about-header h2,
+.about-header p{
+  color: #fff;
+}
+#page-header1{
+  background-image: url(img/banner/b20.jpg);
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 14px;
+}
 #contact-details{
   display:flex;
   align-items: center;
@@ -876,8 +891,67 @@ footer .bottom-details .bottom_text{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
 
 
+/* Shop Page */
+
+#page-header{
+  background-image: url(img/banner/b1.jpg);
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 14px;
+}
+
+#page-header h2,
+#page-header p{
+  color: #fff;
+}
+
+#pagination{
+  text-align: center;
+}
+#pagination a{
+  text-decoration: none;
+  background-color: #088178;
+  padding: 15px 20px ;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 600;
+}
+#pagination a{
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#prodetails {
+  display: flexbox;
+  margin-top: 20px;
+}
+
+#prodetails .single-pro-image{
+    width: 40%;
+    margin-right: 50px;
+}
+
+.small-img-group{
+  display: flexbox;
+  justify-content: space-between;
+}
+
+.small-img-col{
+  flex-basis: 24%;
+  cursor: pointer;
+}
+
+#prodetails .single-pro-details{
+  width: 50%;
+  padding-top: 30px;
 }
 
 
@@ -886,14 +960,7 @@ footer .bottom-details .bottom_text{
 
 
 
-
-
-
-
-
-
-
-
+/* Media Queries */
 
 
 @media (max-width: 900px) {
