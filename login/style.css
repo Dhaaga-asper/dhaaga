@@ -11,7 +11,7 @@ html, body{
   height: 100vh;
   width: 100%;
   place-items: center;
-  background: linear-gradient(to right, #e7a866 0%, #e0a76b 100%);
+  background: linear-gradient(to right, #f4c491 0%, #e0a76b 100%);
 }
 ::selection{
   background : #ff80bf; 
@@ -19,8 +19,7 @@ html, body{
 
 }
 .container{
-  /* background: #e7ceb4; */
-  background-image : url("img/accessories-collection.png");
+  background: #e7ceb4;
   max-width: 350px;
   width: 100%;
   padding: 25px 30px;

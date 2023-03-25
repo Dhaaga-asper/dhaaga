@@ -1,19 +1,3 @@
-// const bar = document.getElementById('bar');
-// const close = document.getElementById('bar');
-// const nav = document.getElementById('bar');
-
-// if (bar) {
-//     bar.addEventListener('click',()=> {
-//         nav.classList.add('active');
-//     })
-// }
-
-// if (close) {
-//     close.addEventListener('click',()=> {
-//         nav.classList.remove('active');
-//     })
-// }
-
 // Hamburger menu selections
 const hamburger = document.querySelector("#hamburger");
 const navMenu = document.querySelector("#navbar");

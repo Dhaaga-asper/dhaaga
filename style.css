@@ -69,7 +69,7 @@ button.normal {
   cursor: pointer;
   border: none;
   outline: none;
-  transition: 0.2s;
+  transition: 0.2s;
 }
 
 button.white {
@@ -354,7 +354,6 @@ body{
 
 #product1 .pro img {
   width: 100%;
-  
   border-radius: 20px;
 }
 
@@ -419,12 +418,6 @@ font-size: 14px
 
 /* About Section */
 
-/* #about p {
-  padding: 20px 20px 10px 10px;
-  padding-left: 30px;
-  text-align: left;
-} */
-
 #about .row{
   display: flex;
   gap:30px ;
@@ -444,29 +437,10 @@ font-size: 14px
   line-height: 1.8;
 }
 
-
-#banner {  
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  background-image: ur1("img\banner\b2.jpg");
-  width: 100%;
-  min-height: 200px;
-  background-size: cover;
-  background-position: center;
-}
-
-#banner h4{
+#about button:hover {
+  background: #088178;
   color: #fff;
-font-size: 16px;
 }
-
-#banner h2 {
-  color: #088178;
-}
-
 
 
 /* Collections Section */
@@ -619,11 +593,6 @@ font-size: 16px;
   border-radius: 20px;
   box-shadow:20px 20px 30px rgba(0,0,0,0.02);
 }
-
-
-
-
-
 
 
 /* Footer Section */
@@ -886,12 +855,14 @@ footer .bottom-details .bottom_text{
   height: 100%;
 }
 
-#form-details form {
+#form-details form{
   width: 65%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
+
+
 
 
 /* Shop Page */
@@ -916,6 +887,7 @@ footer .bottom-details .bottom_text{
 #pagination{
   text-align: center;
 }
+
 #pagination a{
   text-decoration: none;
   background-color: #088178;
@@ -924,6 +896,7 @@ footer .bottom-details .bottom_text{
   color: #fff;
   font-weight: 600;
 }
+
 #pagination a{
   font-size: 16px;
   font-weight: 600;
@@ -1233,10 +1206,6 @@ footer .bottom-details .bottom_text{
   .collection p {
     font-size: 2.0rem;
   }
-  
-  /* #banner {
-    min-height: fit-content;
-    /* height: 20vh; */
   
 }
 

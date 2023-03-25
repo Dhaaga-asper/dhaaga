@@ -69,6 +69,32 @@
 
 
   
+  <div class="col-25">
+  <label for="name">Your Name</label>
+</div>
+<div class="col-75">
+  <input type="text" id="name" name="name" placeholder="Your name">
+</div>
+<div class="col-25">
+  <label for="email">E-mail</label>
+</div>
+<div class="col-75">
+  <input type="text" id="email" name="email" placeholder="E-mail">
+</div>
+<div class="col-25">
+  <label for="Subject">Subject</label>
+</div>
+<div class="col-75">
+  <input type="text" id="subject" name="subject" placeholder="Subject">
+  <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+  <button>Submit</button>     
+</div>
+
+
+
+
+
+
 
 
 

@@ -108,7 +108,7 @@ body{
 }
 
 .form-submit-btn input:hover{
-    background: transparent;
+    background: rgba(110, 10, 10, 0.89);
     color: rgb(255, 255, 255);
 }
 
